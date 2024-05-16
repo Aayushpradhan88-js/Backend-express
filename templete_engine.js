@@ -4,7 +4,7 @@ const app = express()
 app.set("viewengine","ejs")
 
 app.get('/', (req, res) => {
-  res.send('<h1> Hello ejs </h1>')
+  res.send('index')
 })
 
 const port = 3000
