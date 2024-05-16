@@ -43,19 +43,6 @@ app.get('/author/book/issued/:users', (req, res) => {
   res.send(`The reviewer is ${req.params.users} `)
 })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 const port = 3000;//It is an virtual port we can set as our prefrences like - 4000 or 1000 ...etc
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
