@@ -4,8 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <h1>next</h1>
+    <div class="main w-full min-h-screen bg-zinc-900">
+        <a class="text-blue-500 inline-block mb-10" href="/">Go Back To Home</a>
+        <h1 class="text-3xl tracking-tighter"> <%= filename%></h1>
+        <p class="text-3xl mt-2 font-light"><%= filedata%></p>
+    </div>
+    <script src="/javascripts/code.js"></script>
 </body>
 </html>
