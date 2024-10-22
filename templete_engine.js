@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 
+//Connecting to ejs (similar to html)
 app.set("viewengine","ejs")
 
 //Routing 
